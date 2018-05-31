@@ -1,7 +1,9 @@
-import $ from './style.css'
-
+import $ from './style.css';
+import {STATIC} from "~/playground";
 export default ()=> (
   <div className={$.application}>
-      pula
+
+  	<img src={`${STATIC}/images/img.jpg`} />
+
   </div>
 )

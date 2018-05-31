@@ -92,16 +92,38 @@ module.exports = __webpack_require__(5);
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__style_css__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__style_css__);
+
+// EXTERNAL MODULE: external "react"
+var external__react_ = __webpack_require__(0);
+var external__react__default = /*#__PURE__*/__webpack_require__.n(external__react_);
+
+// EXTERNAL MODULE: ./pages/style.css
+var style = __webpack_require__(6);
+var style_default = /*#__PURE__*/__webpack_require__.n(style);
+
+// EXTERNAL MODULE: external "next/config"
+var config_ = __webpack_require__(7);
+var config__default = /*#__PURE__*/__webpack_require__.n(config_);
+
+// CONCATENATED MODULE: ./playground.js
 
 
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: __WEBPACK_IMPORTED_MODULE_1__style_css___default.a.application
-  }, "pula");
+var _getConfig = config__default()(),
+    publicRuntimeConfig = _getConfig.publicRuntimeConfig;
+
+var BASE = publicRuntimeConfig.base;
+var URL = publicRuntimeConfig.url;
+var STATIC = publicRuntimeConfig.static;
+// CONCATENATED MODULE: ./pages/index.js
+
+
+
+/* harmony default export */ var pages = __webpack_exports__["default"] = (function () {
+  return external__react__default.a.createElement("div", {
+    className: style_default.a.application
+  }, external__react__default.a.createElement("img", {
+    src: "".concat(STATIC, "/images/img.jpg")
+  }));
 });
 
 /***/ }),
@@ -111,6 +133,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 module.exports = {
 	"application": "application_2w-7Z"
 };
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports) {
+
+module.exports = require("next/config");
 
 /***/ })
 /******/ ]);
