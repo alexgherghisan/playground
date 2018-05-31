@@ -1,0 +1,63 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js export
+
+PATH: 
+  /Users/Alex/.dotfiles/osx/bin:/Users/Alex/.yarn/bin:./node_modules/.bin:/Users/Alex/.node/bin:/Users/Alex/.composer/vendor/bin:./vendor/bin:/usr/local/sbin:/Users/Alex/.dotfiles/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/Alex/n/bin:/Users/Alex/golang/bin:/usr/local/opt/go/libexec/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.5.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+  	"name": "playground",
+  	"version": "1.0.0",
+  	"main": "index.js",
+  	"license": "private",
+  	"scripts": {
+  		"dev": "next",
+  		"start": "next start",
+  		"build": "next build",
+  		"export":
+  			"yarn clearcache && next build && next export -o public && touch public/.nojekyll",
+  		"deploy": "git subtree push --prefix public origin gh-pages",
+  		"clearcache": "rm -rf node_modules/.cache"
+  	},
+  	"dependencies": {
+  		"date-fns": "^1.29.0",
+  		"react": "^16.3.1",
+  		"react-dom": "^16.3.1",
+  		"react-spring": "5.1.1",
+  		"unistore": "^3.0.4"
+  	},
+  	"devDependencies": {
+  		"@zeit/next-css": "^0.2.0",
+  		"next": "^6.0.3"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Command failed.
+  Exit code: 127
+  Command: sh
+  Arguments: -c yarn clearcache && next build && next export -o public && touch public/.nojekyll
+  Directory: /Users/Alex/Projects/playground
+  Output:
+  
+      at ProcessTermError.MessageError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
+      at new ProcessTermError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:226:113)
+      at ChildProcess.<anonymous> (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:30281:17)
+      at ChildProcess.emit (events.js:160:13)
+      at maybeClose (internal/child_process.js:943:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:220:5)
