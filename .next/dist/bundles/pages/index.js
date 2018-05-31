@@ -101,7 +101,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: __WEBPACK_IMPORTED_MODULE_1__style_css___default.a.application
-  }, "test");
+  }, "pula");
 });
 
 /***/ }),

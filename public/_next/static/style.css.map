@@ -1,0 +1,1 @@
+{"version":3,"file":"static/style.css","sources":["webpack:///./pages/style.css"],"sourcesContent":[".application {\n  background: grey;\n  height: 100vh;\n  overflow-y: auto;\n}\n\n\n// WEBPACK FOOTER //\n// ./pages/style.css"],"mappings":"AAAA;AACA;AACA;AACA;AACA","sourceRoot":""}

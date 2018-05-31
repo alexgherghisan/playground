@@ -15,7 +15,7 @@ export default class MyDocument extends Document {
 					/>
 					<meta http-equiv="x-ua-compatible" content="ie=edge" />
 
-					<title>Elena's playground</title>
+					<title>Alex's playground</title>
 
 					<style>{`
 						html {

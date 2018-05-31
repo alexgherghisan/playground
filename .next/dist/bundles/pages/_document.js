@@ -135,7 +135,7 @@ function (_Document) {
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("meta", {
         "http-equiv": "x-ua-compatible",
         content: "ie=edge"
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("title", null, "Elena's playground"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("style", null, "\n\t\t\t\t\t\thtml {\n\t\t\t\t\t\t\tbox-sizing: border-box;\n\t\t\t\t\t\t}\n\t\t\t\t\t\t*, *:before, *:after {\n\t\t\t\t\t\t\tbox-sizing: inherit;\n\t\t\t\t\t\t}\n\t\t\t\t\t"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("title", null, "Alex's playground"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("style", null, "\n\t\t\t\t\t\thtml {\n\t\t\t\t\t\t\tbox-sizing: border-box;\n\t\t\t\t\t\t}\n\t\t\t\t\t\t*, *:before, *:after {\n\t\t\t\t\t\t\tbox-sizing: inherit;\n\t\t\t\t\t\t}\n\t\t\t\t\t"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         rel: "stylesheet",
         href: "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css"
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
