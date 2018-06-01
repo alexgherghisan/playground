@@ -1,6 +1,40 @@
 module.exports =
 webpackJsonp([0],{
 
+/***/ "./components/Header/style.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+// removed by extract-text-webpack-plugin
+module.exports = {"header":"header_2uitE","burger":"burger_2rbS6","line1":"line1_2cfzz","line2":"line2_17OGe","line3":"line3_2NSWq","rotateunite":"rotateunite_3p2kP","rotateMiddle":"rotateMiddle_ZKVmS","rotateuniteRight":"rotateuniteRight_1ckqD","potential_menu":"potential_menu_T4jvI","menu_item_1":"menu_item_1_1_1hw","menu_item_2":"menu_item_2_3lQdc","menu_item_3":"menu_item_3_2jSRv","menuhider":"menuhider_1N9sW","menuapear":"menuapear_26u2M"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1527817389291");
+          });
+      }
+    }
+  
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime/core-js/array/from.js":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -36715,6 +36749,40 @@ module.exports = function(module) {
 
 /***/ }),
 
+/***/ "./pages/PlatformPromo/style.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+// removed by extract-text-webpack-plugin
+module.exports = {"hero":"hero_1FmCw"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1527808361800");
+          });
+      }
+    }
+  
+
+/***/ }),
+
 /***/ "./pages/style.css":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -36741,7 +36809,7 @@ module.exports = {"application":"application_2w-7Z"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1527802027315");
+            injectCss(link, link.href.split("?")[0] + "?unix=1527814041057");
           });
       }
     }

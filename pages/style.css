@@ -1,5 +1,7 @@
 .application {
   background: grey;
-  height: 100vh;
-  overflow-y: auto;
+  position: relative;
+}
+.application *{
+	box-sizing: content-box;
 }
