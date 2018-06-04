@@ -1,11 +1,11 @@
 module.exports =
 webpackJsonp([0],{
 
-/***/ "./components/Header/style.css":
+/***/ "./components/Footer/Footer_lower/style.css":
 /***/ (function(module, exports, __webpack_require__) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"header":"header_2uitE","burger":"burger_2rbS6","line1":"line1_2cfzz","line2":"line2_17OGe","line3":"line3_2NSWq","rotateunite":"rotateunite_3p2kP","rotateMiddle":"rotateMiddle_ZKVmS","rotateuniteRight":"rotateuniteRight_1ckqD","potential_menu":"potential_menu_T4jvI","menu_item_1":"menu_item_1_1_1hw","menu_item_2":"menu_item_2_3lQdc","menu_item_3":"menu_item_3_2jSRv","menuhider":"menuhider_1N9sW","menuapear":"menuapear_26u2M"};;
+module.exports = {"lower_footer_holder":"lower_footer_holder_-32Sp","logo_holder":"logo_holder_3qBsU","navigation_holder":"navigation_holder_1mZpQ","navigation_item":"navigation_item_1Gj-V","disclaimer_holder":"disclaimer_holder_1PXKU"};;
     if (true) {
       var injectCss = function injectCss(prev, href) {
         var link = prev.cloneNode();
@@ -27,7 +27,143 @@ module.exports = {"header":"header_2uitE","burger":"burger_2rbS6","line1":"line1
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1527817389291");
+            injectCss(link, link.href.split("?")[0] + "?unix=1528075136266");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./components/Footer/Footer_upper/style.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+// removed by extract-text-webpack-plugin
+module.exports = {"contacts":"contacts_Og7FD","contacts_info":"contacts_info_2yHex","upper_footer_holder":"upper_footer_holder_QoCGb","contacts_holder":"contacts_holder_2KkqL","contacts_ctas":"contacts_ctas_3uYGr"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1528073889696");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./components/Footer/style.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+// removed by extract-text-webpack-plugin
+module.exports = {"footer":"footer_34BaK","footer_upper":"footer_upper_2arT3","footer_lower":"footer_lower_2kc6r"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1528074807082");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./components/Header/register.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+// removed by extract-text-webpack-plugin
+module.exports = {"register_modal":"register_modal_rFU0F","register_holder":"register_holder_2sIZu","register_button":"register_button_3QM8S"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1528066344614");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./components/Header/style.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+// removed by extract-text-webpack-plugin
+module.exports = {"header":"header_2uitE","burger":"burger_2rbS6","line1":"line1_2cfzz","line2":"line2_17OGe","line3":"line3_2NSWq","rotateunite":"rotateunite_3p2kP","rotateMiddle":"rotateMiddle_ZKVmS","rotateuniteRight":"rotateuniteRight_1ckqD","potential_menu":"potential_menu_T4jvI","menu_item_1":"menu_item_1_1_1hw","menu_item_2":"menu_item_2_3lQdc","menu_item_3":"menu_item_3_2jSRv","menuhider":"menuhider_1N9sW","menuapear":"menuapear_26u2M","menu_fill":"menu_fill_2kk9-"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1528072019238");
           });
       }
     }
@@ -36749,11 +36885,11 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/PlatformPromo/style.css":
+/***/ "./pages/Features/style.css":
 /***/ (function(module, exports, __webpack_require__) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"hero":"hero_1FmCw"};;
+module.exports = {"features":"features_1jkOu","feature_title":"feature_title_1DR12","feature":"feature_3twE1","feature_description":"feature_description_2qM9q"};;
     if (true) {
       var injectCss = function injectCss(prev, href) {
         var link = prev.cloneNode();
@@ -36775,7 +36911,211 @@ module.exports = {"hero":"hero_1FmCw"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1527808361800");
+            injectCss(link, link.href.split("?")[0] + "?unix=1528072087417");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./pages/Newsletter/style.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+// removed by extract-text-webpack-plugin
+module.exports = {"newsletter":"newsletter_3mbYp","newsletter_titile":"newsletter_titile_3syOg","newsletter_form_holder":"newsletter_form_holder_27Rtc","newsletter_button":"newsletter_button_1BN16","newsletter_input":"newsletter_input_1M8w0"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1528071766253");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./pages/PlatformPromo/style.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+// removed by extract-text-webpack-plugin
+module.exports = {"hero":"hero_1FmCw","hero_title":"hero_title_2ky1R","button_amazing":"button_amazing_3viFx"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1528066771632");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./pages/Team/Team_member1/style.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+// removed by extract-text-webpack-plugin
+module.exports = {"team_member_box":"team_member_box_2h0X4","team_face":"team_face_18XXw","team_member_name":"team_member_name_O71Jn","team_member_job":"team_member_job_1gm2o","team_member_bio":"team_member_bio_20HRv"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1528069114513");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./pages/Team/Team_member2/style.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+// removed by extract-text-webpack-plugin
+module.exports = {"team_member_box":"team_member_box_1SkWt","team_face":"team_face_9uCf_","team_member_name":"team_member_name_2UkgM","team_member_job":"team_member_job_2pK4o","team_member_bio":"team_member_bio_3n09K"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1528069074248");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./pages/Team/Team_member3/style.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+// removed by extract-text-webpack-plugin
+module.exports = {"team_member_box":"team_member_box_16rBE","team_face":"team_face_2QDLK","team_member_name":"team_member_name_zxCzC","team_member_job":"team_member_job_zm7j9","team_member_bio":"team_member_bio_RE71c"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1528069113509");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./pages/Team/style.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+// removed by extract-text-webpack-plugin
+module.exports = {"team":"team_2X4n4","team_container_title":"team_container_title_MXwvF","team_holeder":"team_holeder_1WV8Z"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1528069149267");
           });
       }
     }
@@ -36809,7 +37149,7 @@ module.exports = {"application":"application_2w-7Z"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1527814041057");
+            injectCss(link, link.href.split("?")[0] + "?unix=1528061727476");
           });
       }
     }
