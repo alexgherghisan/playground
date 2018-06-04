@@ -1,0 +1,20 @@
+.footer {
+	background: #06090c;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	min-width: 320px;
+	padding: 5vh 3vw;
+}
+.footer_upper {
+	width: 100%;
+	margin-bottom: 5em;
+	min-width: 320px;
+}
+.footer_lower {
+	width: 100%;
+	min-width: 320px;
+}

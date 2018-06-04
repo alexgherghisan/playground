@@ -1,0 +1,25 @@
+.team {
+	background: #98c1d9;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 5vh 3vw;
+}
+.team_container_title {
+	font-family: "Amatic SC", cursive;
+	font-size: 5em;
+	margin-bottom: 1em;
+	width: 100%;
+	text-align: center;
+}
+
+.team_holeder {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}

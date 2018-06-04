@@ -1,195 +1,207 @@
 .header {
-  background: grey;
-  position: relative;
-  padding-top: 3vh;
-  padding-left: 3vw;
-  padding-right: 3vw;
-  padding-bottom: 3vh;
+	background: #06090c;
+	position: fixed;
+	padding-top: 3vh;
+	padding-left: 3vw;
+	padding-right: 3vw;
+	padding-bottom: 3vh;
+	top: 0;
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-flow: row wrap;
+	z-index: 1;
 }
-.burger{
+.burger {
 	height: 20px;
 	width: 20px;
 	padding: 3px;
 	position: relative;
+	display: inline-block;
+	vertical-align: middle;
 }
-.line1{
+.line1 {
 	width: 20px;
 	height: 3px;
 	position: relative;
-	background-color: black;
+	background-color: #ee6c4d;
 	border-radius: 15%;
 	margin-bottom: 4px;
 	transition: all 0.3s cubic-bezier(0.66, 0.06, 0.4, 0.65);
-
 }
-.line2{
+.line2 {
 	width: 20px;
 	height: 3px;
 	position: relative;
-	background-color: black;
+	background-color: #ee6c4d;
 	border-radius: 15%;
-	margin-left:0;
+	margin-left: 0;
 	margin-bottom: 4px;
 	transition: all 0.3s cubic-bezier(0.66, 0.06, 0.4, 0.65);
 }
-.line3{
+.line3 {
 	width: 20px;
 	height: 3px;
 	position: relative;
-	background-color: black;
+	background-color: #ee6c4d;
 	border-radius: 15%;
 	transition: all 0.3s cubic-bezier(0.66, 0.06, 0.4, 0.65);
 }
 /*hover:click:animation*/
-.burger:hover{
-	cursor:pointer;
+.burger:hover {
+	cursor: pointer;
 }
-.burger:hover .line1{
+.burger:hover .line1 {
 	transition: all 0.3s cubic-bezier(0.66, 0.06, 0.4, 0.65);
-    width: 12px;
-    animation-name: rotateunite;
-    animation-duration: 0.6s;
-    animation-iteration-count: 1;
-    transform: rotate(45deg);
-    margin-left: -4px;
+	width: 12px;
+	animation-name: rotateunite;
+	animation-duration: 0.6s;
+	animation-iteration-count: 1;
+	transform: rotate(45deg);
+	margin-left: -4px;
 }
-.burger:hover .line2{
+.burger:hover .line2 {
 	transition: all 0.3s cubic-bezier(0.66, 0.06, 0.4, 0.65);
 	width: 45px;
-    margin-left: -13px;
+	margin-left: -13px;
 	margin-right: auto;
 	animation-name: rotateMiddle;
-    animation-duration: 0.6s;
-    animation-iteration-count: 1;
-    transform: rotate(-45deg);
+	animation-duration: 0.6s;
+	animation-iteration-count: 1;
+	transform: rotate(-45deg);
 }
-.burger:hover .line3{
-    transition: all 0.3s cubic-bezier(0.66, 0.06, 0.4, 0.65);
-    width: 12px;
-    animation-name: rotateuniteRight;
-    animation-duration: 0.6s;
-    animation-iteration-count: 1;
-    transform: rotate(45deg);
-    margin-left: 10px;
-    margin-right: auto;
+.burger:hover .line3 {
+	transition: all 0.3s cubic-bezier(0.66, 0.06, 0.4, 0.65);
+	width: 12px;
+	animation-name: rotateuniteRight;
+	animation-duration: 0.6s;
+	animation-iteration-count: 1;
+	transform: rotate(45deg);
+	margin-left: 10px;
+	margin-right: auto;
 }
 @keyframes rotateunite {
-	0%{
+	0% {
 		transform: rotate(0deg);
 		width: 12px;
 		margin-left: 0;
 	}
-	50%{
+	50% {
 		transform: rotate(45deg);
 		width: 5px;
 		margin-left: -10px;
 	}
-	100%{
+	100% {
 		transform: rotate(45deg);
 		width: 12px;
 		margin-left: -4px;
 	}
 }
 @keyframes rotateMiddle {
-	0%{
+	0% {
 		transform: rotate(0deg);
 		width: 20px;
 		margin-right: auto;
 		margin-left: 0px;
 	}
-	50%{
+	50% {
 		transform: rotate(-45deg);
 		width: 10px;
 		margin-left: 10px;
 	}
-	100%{
+	100% {
 		transform: rotate(-45deg);
 		width: 45px;
-	   	margin-left: -13px;
+		margin-left: -13px;
 	}
 }
 @keyframes rotateuniteRight {
-	0%{
+	0% {
 		transform: rotate(0deg);
 		width: 12px;
 		margin-right: auto;
 	}
-	50%{
+	50% {
 		transform: rotate(45deg);
 		width: 5px;
 		margin-left: 20px;
 	}
-	100%{
+	100% {
 		transform: rotate(45deg);
 		width: 12px;
-	    margin-left: 10px;
-	    margin-right: auto;
+		margin-left: 10px;
+		margin-right: auto;
 	}
 }
-.potential_menu{
+.potential_menu {
 	position: absolute;
-    left: 80px;
-    top: -300px;
-    height: 200px;
-    width: 200px;
-    opacity: 0;
-    transform: rotate(-30deg);
-    transition: all 0.3s cubic-bezier(0.66, 0.06, 0.4, 0.65);
-}
-.menu_item_1{
-	font-family: 'Amatic SC', cursive;
+	left: 80px;
+	top: -300px;
+	height: 200px;
+	width: 200px;
+	opacity: 0;
+	transform: rotate(-30deg);
 	transition: all 0.3s cubic-bezier(0.66, 0.06, 0.4, 0.65);
-    font-size: 52px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    position: absolute;
-    top: 5px;
-    left: 0px;
-    transform: rotate(7deg);
 }
-.menu_item_2{
-	font-family: 'Amatic SC', cursive;
+.menu_item_1 {
+	font-family: "Amatic SC", cursive;
 	transition: all 0.3s cubic-bezier(0.66, 0.06, 0.4, 0.65);
-    font-size: 52px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    position: absolute;
-    top: 65px;
-    left: -15px;
-    transform: rotate(18deg);
+	font-size: 52px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	position: absolute;
+	top: 5px;
+	left: 0px;
+	transform: rotate(7deg);
+	color: #ee6c4d;
 }
-.menu_item_3{
-	font-family: 'Amatic SC', cursive;
+.menu_item_2 {
+	font-family: "Amatic SC", cursive;
 	transition: all 0.3s cubic-bezier(0.66, 0.06, 0.4, 0.65);
-    font-size: 52px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    position: absolute;
-    top: 122px;
-    left: -38px;
-    transform: rotate(28deg);
+	font-size: 52px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	position: absolute;
+	top: 65px;
+	left: -15px;
+	transform: rotate(18deg);
+	color: #ee6c4d;
 }
-.menuhider{
-    position: absolute;
-    transition: all 0.6s cubic-bezier(0.66, 0.06, 0.4, 0.65);
-    left: 50px;
-    width: 0px;
-    top: -30px;
-    height: 50px;
-    background-color: gray;
-    z-index: 1;
+.menu_item_3 {
+	font-family: "Amatic SC", cursive;
+	transition: all 0.3s cubic-bezier(0.66, 0.06, 0.4, 0.65);
+	font-size: 52px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	position: absolute;
+	top: 122px;
+	left: -38px;
+	transform: rotate(28deg);
+	color: #ee6c4d;
+}
+.menuhider {
+	position: absolute;
+	transition: all 0.6s cubic-bezier(0.66, 0.06, 0.4, 0.65);
+	left: 50px;
+	width: 0px;
+	top: -55px;
+	height: 70px;
+	background-color: #06090c;
+	z-index: 1;
 }
 .menuhider:after {
-    content: "";
-    transition: all 0.6s cubic-bezier(0.66, 0.06, 0.4, 0.65);
-    position: absolute;
-    width: auto;
-    border-bottom: 2px solid black;
-    top: 40px;
-    left: 50%;
-    right: 50%;
+	content: "";
+	transition: all 0.6s cubic-bezier(0.66, 0.06, 0.4, 0.65);
+	position: absolute;
+	width: auto;
+	border-bottom: 2px solid #ee6c4d;
+	top: 65px;
+	left: 50%;
+	right: 50%;
 }
-.burger:hover:after{
+.burger:hover:after {
 	content: "";
 	position: absolute;
 	width: 100px;
@@ -197,48 +209,53 @@
 	top: 0;
 	bottom: -100px;
 }
-.burger:hover .menuhider{
+.burger:hover .menuhider {
 	width: 200px;
 	transition: all 0.6s cubic-bezier(0.66, 0.06, 0.4, 0.65);
 }
 .burger:hover .menuhider:after {
-    content: "";
-    transition: all 0.3s cubic-bezier(0.66, 0.06, 0.4, 0.65);
-    position: absolute;
-    width: auto;
-    border-bottom: 2px solid black;
-    top: 48px;
-    left: 0;
-    right: 0;
-
-}
-.burger:hover .potential_menu{
+	content: "";
 	transition: all 0.3s cubic-bezier(0.66, 0.06, 0.4, 0.65);
-    animation-name: menuapear;
-    animation-duration: 0.6s;
-    animation-iteration-count: 1;
-    opacity: 1;
-    transform: rotate(0deg);
-    top:10px;
+	position: absolute;
+	width: auto;
+	border-bottom: 2px solid #ee6c4d;
+	top: 48px;
+	left: 0;
+	right: 0;
+}
+.burger:hover .potential_menu {
+	transition: all 0.3s cubic-bezier(0.66, 0.06, 0.4, 0.65);
+	animation-name: menuapear;
+	animation-duration: 0.6s;
+	animation-iteration-count: 1;
+	opacity: 1;
+	transform: rotate(0deg);
+	top: 10px;
 }
 @keyframes menuapear {
-	0%{
-		top:-300px;
+	0% {
+		top: -300px;
 		opacity: 0;
 		transform: rotate(-30deg);
 	}
-	50%{
+	50% {
 		opacity: 1;
 		transform: rotate(-30deg);
 	}
-	70%{
+	70% {
 		opacity: 1;
 		transform: rotate(-30deg);
-		top:-240px;
+		top: -240px;
 	}
-	100%{
-		top:20px;
+	100% {
+		top: 20px;
 		opacity: 1;
 		transform: rotate(0deg);
 	}
+}
+.menu_fill {
+	display: inline-block;
+	width: calc(94vw - 26px - 8em);
+	height: 3vh;
+	vertical-align: middle;
 }

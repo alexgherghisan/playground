@@ -1,9 +1,12 @@
-import $ from './style.css';
-import Header from '~/components/Header';
-import {STATIC} from "~/playground";
-import { Component } from "react";
-export default ()=> (
-  <div className={$.hero}>
-  	<Header />
-  </div>
-)
+import $ from "./style.css";
+
+import { STATIC } from "~/playground";
+import Logo from "./Logo.js";
+import Button_Amazing from "./Button_Amazing";
+export default () => (
+	<div className={$.hero}>
+		<Logo />
+		<div className={$.hero_title}>Lorem ipsum dolor sit amet</div>
+		<Button_Amazing />
+	</div>
+);

@@ -1,7 +1,7 @@
 .application {
-  background: grey;
-  position: relative;
+	background: #06090c;
+	position: relative;
 }
-.application *{
+.application * {
 	box-sizing: content-box;
 }

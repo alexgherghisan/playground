@@ -1,0 +1,45 @@
+.newsletter {
+	background: #e0fbfc;
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-flow: row wrap;
+	padding: 5vh 3vw;
+	font-family: "Amatic SC", cursive;
+	justify-content: space-between;
+	text-align: center;
+}
+.newsletter_titile {
+	font-family: "Amatic SC", cursive;
+	font-size: 5em;
+	padding: 0 2vw;
+}
+
+.newsletter_form_holder {
+	width: 60%;
+	min-width: 310px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.newsletter_button {
+	border: none;
+	width: 30%;
+	-webkit-appearance: none !important;
+	background-color: #ee6c4d;
+	color: #293241;
+	font-size: 2em;
+	line-height: 3em;
+	padding: 0;
+	margin: 0;
+	border-radius: 3px;
+}
+.newsletter_input {
+	width: 70%;
+	line-height: 3em;
+	font-size: 2em;
+	border: none;
+	color: #293241;
+	border-radius: 3px;
+	padding-left: 2em;
+}

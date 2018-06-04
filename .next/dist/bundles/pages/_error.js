@@ -67,28 +67,28 @@ module.exports =
 /******/ 	__webpack_require__.p = "/playground";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 17);
+/******/ 	return __webpack_require__(__webpack_require__.s = 44);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 17:
+/***/ 44:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(18);
+module.exports = __webpack_require__(45);
 
 
 /***/ }),
 
-/***/ 18:
+/***/ 45:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(19)
+module.exports = __webpack_require__(46)
 
 
 /***/ }),
 
-/***/ 19:
+/***/ 46:
 /***/ (function(module, exports) {
 
 module.exports = require("next/error");
