@@ -1,16 +1,25 @@
 import $ from "./style.css";
-import Header from "~/components/Header";
-import Team_member1 from "./Team_member1";
-import Team_member2 from "./Team_member2";
-import Team_member3 from "./Team_member3";
-import { STATIC } from "~/playground";
-export default () => (
-	<div className={$.team}>
-		<div className={$.team_container_title}>Team</div>
-		<div className={$.team_holeder}>
-			<Team_member1 />
-			<Team_member2 />
-			<Team_member3 />
+import TeamMember from "./TeamMember";
+
+export default ({ items }) => (
+	<div className={$.section}>
+		<div className={$.section_title}>Team</div>
+		<div className={$.members}>
+			{items.map((member, key) => {
+				const memberClass = `${$.member} member_${key}`;
+				// metoda de a pune 2 clase pe un element
+
+				return (
+					<div className={memberClass} key={key}>
+						<TeamMember
+							avatar={member.avatar}
+							name={member.name}
+							job={member.job}
+							bio={member.bio}
+						/>
+					</div>
+				);
+			})}
 		</div>
 	</div>
 );

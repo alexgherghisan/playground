@@ -1,6 +1,4 @@
 import $ from "./style.css";
-import Header from "~/components/Header";
-import { STATIC } from "~/playground";
 export default () => (
 	<div className={$.features}>
 		<div className={$.feature}>

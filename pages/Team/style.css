@@ -1,4 +1,4 @@
-.team {
+.section {
 	background: #98c1d9;
 	position: relative;
 	display: flex;
@@ -8,7 +8,7 @@
 	flex-wrap: wrap;
 	padding: 5vh 3vw;
 }
-.team_container_title {
+.section_title {
 	font-family: "Amatic SC", cursive;
 	font-size: 5em;
 	margin-bottom: 1em;
@@ -16,10 +16,19 @@
 	text-align: center;
 }
 
-.team_holeder {
+.members {
 	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
+}
+.member {
+	width: calc(33% - 4vw);
+	padding: 0.5em 2vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+	min-width: 310px;
 }

@@ -1,0 +1,32 @@
+.contacts {
+	font-family: "Amatic SC", cursive;
+	font-size: 5em;
+	color: #e0fbfc;
+}
+.contacts_info {
+	font-family: "Amatic SC", cursive;
+	font-size: 2em;
+	text-align: left;
+	color: #e0fbfc;
+	padding: 1em 0 1em 0;
+}
+.upper_footer {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.contact {
+	padding: 0 2em;
+	min-width: 320px;
+	width: calc(50% - 12em);
+}
+.contacts_ctas {
+	font-family: "Amatic SC", cursive;
+	font-size: 2em;
+	text-align: left;
+	color: #e0fbfc;
+	padding: 1em;
+	min-width: 320px;
+}

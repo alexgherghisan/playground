@@ -21,4 +21,7 @@
 	padding: 1vw;
 }
 .feature_description {
+	font-family: "Amatic SC", cursive;
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
 }
