@@ -1,53 +1,20 @@
 import $ from "./style.css";
-export default () => (
-	<div className={$.features}>
-		<div className={$.feature}>
-			<div className={$.feature_title}>Feature 1</div>
-			<div className={$.feature_description}>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-				Suspendisse faucibus nec arcu ac maximus. In eros turpis,
-				efficitur et erat ut, pellentesque laoreet arcu.
-			</div>
-		</div>
-		<div className={$.feature}>
-			<div className={$.feature_title}>Feature 2</div>
-			<div className={$.feature_description}>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-				Suspendisse faucibus nec arcu ac maximus. In eros turpis,
-				efficitur et erat ut, pellentesque laoreet arcu.
-			</div>
-		</div>
-		<div className={$.feature}>
-			<div className={$.feature_title}>Feature 3</div>
-			<div className={$.feature_description}>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-				Suspendisse faucibus nec arcu ac maximus. In eros turpis,
-				efficitur et erat ut, pellentesque laoreet arcu.
-			</div>
-		</div>
-		<div className={$.feature}>
-			<div className={$.feature_title}>Feature 4</div>
-			<div className={$.feature_description}>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-				Suspendisse faucibus nec arcu ac maximus. In eros turpis,
-				efficitur et erat ut, pellentesque laoreet arcu.
-			</div>
-		</div>
-		<div className={$.feature}>
-			<div className={$.feature_title}>Feature 5</div>
-			<div className={$.feature_description}>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-				Suspendisse faucibus nec arcu ac maximus. In eros turpis,
-				efficitur et erat ut, pellentesque laoreet arcu.
-			</div>
-		</div>
-		<div className={$.feature}>
-			<div className={$.feature_title}>Feature 6</div>
-			<div className={$.feature_description}>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-				Suspendisse faucibus nec arcu ac maximus. In eros turpis,
-				efficitur et erat ut, pellentesque laoreet arcu.
-			</div>
+import Feature from "./Feature";
+export default ({ items }) => (
+	<div className={$.section}>
+		<div className={$.section_title}>Features</div>
+		<div className={$.feautures}>
+			{items.map((feature, key) => {
+				const featureClass = `${$.feature} feature_${key}`;
+				return (
+					<div className={featureClass} key={key}>
+						<Feature
+							title={feature.title}
+							headline={feature.headline}
+						/>
+					</div>
+				);
+			})}
 		</div>
 	</div>
 );

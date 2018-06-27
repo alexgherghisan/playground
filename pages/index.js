@@ -16,9 +16,9 @@ export default () => (
 			/>
 		</Head>
 		<PlatformPromo />
-		<Features />
+		<Features items={data.features} />
 		<Team items={data.members} />
-		<Newsletter items={data.features} />
+		<Newsletter />
 		<WebsiteFooter />
 	</div>
 );

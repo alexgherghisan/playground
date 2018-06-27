@@ -1,4 +1,8 @@
-.features {
+.section {
+	background: #e0fbfc;
+	padding: 5vh 3vw;
+}
+.feautures {
 	background: #e0fbfc;
 	position: relative;
 	display: flex;
@@ -6,22 +10,11 @@
 	align-items: center;
 	flex-direction: row;
 	flex-wrap: wrap;
-	padding: 5vh 3vw;
 }
-.feature_title {
+.section_title {
 	font-family: "Amatic SC", cursive;
-	font-size: 3em;
-	margin-bottom: 0.5em;
-}
-.feature {
-	width: 27vw;
-	min-width: 310px;
+	font-size: 5rem;
+	margin-bottom: 1em;
+	width: 100%;
 	text-align: center;
-	margin-bottom: 2em;
-	padding: 1vw;
-}
-.feature_description {
-	font-family: "Amatic SC", cursive;
-	font-size: 1.5rem;
-	margin-bottom: 0.5rem;
 }

@@ -22,16 +22,19 @@ export default {
   ],
   features: [
     {
-      title: "",
-      headline: "",
+      title: "Title 1",
+      headline:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse faucibus nec arcu ac maximus. In eros turpis, efficitur et erat ut, pellentesque laoreet arcu.",
     },
     {
-      title: "",
-      headline: "",
+      title: "Title 2",
+      headline:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse faucibus nec arcu ac maximus. In eros turpis, efficitur et erat ut, pellentesque laoreet arcu.",
     },
     {
-      title: "",
-      headline: "",
+      title: "Title 3",
+      headline:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse faucibus nec arcu ac maximus. In eros turpis, efficitur et erat ut, pellentesque laoreet arcu.",
     },
   ],
 };
